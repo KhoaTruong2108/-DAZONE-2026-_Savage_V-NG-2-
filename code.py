@@ -118,7 +118,7 @@ def create_summary_dataframe(df: pl.DataFrame) -> pl.DataFrame:
 st.sidebar.header("🔍 Bộ lọc hệ thống")
 
 # Đọc file transaction
-trans_path = "D:/Nghiên cứu khoa học/strem/data/transaction_info.xlsx"
+trans_path = "data/transaction_info.xlsx"
 list_ids, is_success, trans_df = load_transaction_info(trans_path)
 campaign_summary_df = create_summary_dataframe(trans_df) if is_success else pl.DataFrame()
 if not is_success:
