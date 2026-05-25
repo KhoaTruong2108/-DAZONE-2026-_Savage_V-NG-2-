@@ -1,7 +1,10 @@
-streamlit
-pandas
+os
+glob
 numpy
-scipy
-matplotlib
-torch
-torchvision
+pandas
+polars
+streamlit
+seaborn 
+pi
+plotly.express 
+matplotlib.pyplot 
