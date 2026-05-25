@@ -514,7 +514,7 @@ st.title("📊 Dashboard Đánh Giá Chất Lượng Campaign (Top 10)")
 st.markdown("Ứng dụng sử dụng framework chấm điểm (Scoring Framework) dựa trên phương pháp chuẩn hóa **Min-Max** để đánh giá toàn diện hiệu quả của các chiến dịch Marketing.")
 
 # Bước 1: Load Dữ Liệu
-trans_path = "D:/Nghiên cứu khoa học/strem/data/transaction_info.xlsx"
+trans_path = "data/transaction_info.xlsx"
 list_ids, is_success, trans_df = load_transaction_info(trans_path)
 
 # Kiểm tra dữ liệu đầu vào. Nếu thất bại, báo lỗi và dừng toàn bộ app.
