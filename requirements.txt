@@ -1,10 +1,7 @@
-os
-glob
 numpy
 pandas
 polars
 streamlit
-seaborn 
-pi
-plotly.express 
-matplotlib.pyplot 
+seaborn
+plotly
+matplotlib
